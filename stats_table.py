@@ -4,7 +4,7 @@ import json
 import os
 import ast  # Safer than eval
 
-img_file = r"C:\Users\nshei\Pictures\Screenshot 2025-05-13 191206.png" #file_paths[1]
+img_file = file_paths[1]
 
 # Read image and convert to base64
 with open(img_file, "rb") as file:
